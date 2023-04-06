@@ -1,0 +1,148 @@
+.home {
+    width: 100%;
+    align-items: center;
+    color: #2d2826;
+}
+
+.bioContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #2d2826;
+}
+
+.bioLinks {
+    color: #f5f6ed;
+    display: grid;
+    width: 10%;
+    justify-content: center;
+    row-gap: 20px;
+}
+
+.bioLinks a {
+    color: #f5f6ed;
+}
+
+.bioLinks svg {
+    width: 80%;
+    height: 80%;
+}
+
+.profilePhoto {
+    width: 30%;
+    padding-bottom: 30%; 
+    position: relative;
+}
+  
+.profilePhoto img {
+    position: absolute;
+    top: 18px;
+    left: 0;
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+    border-radius: 15%;
+    overflow: hidden;
+}
+
+.about {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    text-align: left;
+    background-color: #2d2826;
+    color: #f5f6ed;
+}
+
+.about h2 {
+    font-size: 60px;
+    color: #c75b5c;
+    height: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 3vmin;
+}
+
+.prompt {
+    font-size: 30px;
+    text-align: left;
+    margin-left: 3vmin;
+    margin-right: 5vmin;
+}
+
+.skills {
+    font-size: 65px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: #c75b5c;
+}
+  
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.item h2{
+    margin-bottom: 0px;
+}
+  
+.group {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+  
+.icon-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px;
+}
+  
+.icon-text h5 {
+    margin-bottom: 5px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .bioContainer {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .bioLinks {
+      width: 50%;
+      grid-template-columns: repeat(3, 1fr);
+      margin-top: 1vmin;
+    }
+  
+    .profilePhoto {
+      width: 50%;
+      padding-bottom: 50%;
+    }
+
+    .about {
+        width: 100%;
+        height: auto;
+        padding-top: 20px;
+        text-align: center;
+      }
+  
+    .about .prompt {
+        font-size: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .about h2 {
+      font-size: 40px;
+      height: auto;
+    }
+}
