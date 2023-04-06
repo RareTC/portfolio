@@ -9,20 +9,21 @@
     flex-direction: column;
     padding-top: 10px;
     margin-top: 200px;
-    /* position: sticky; */
-    /* bottom: 0; */
-  }
+}
   
-  .socialMedia svg {
+.footerlinks a {
+  color: #f5f6ed;
+}
+
+.footerlinks svg {
+  height: 60px;
+  width: 60px;
+  margin-top: 10px;
+}
+
+ .footer p {
     color: #f5f6ed;
-    margin: 20px;
-    font-size: 70px;
-    cursor: pointer;
-  }
-  
-  .footer p {
-    color: #f5f6ed;
-  }
+}
   
   @media only screen and (max-width: 600px) {
     .footer {
@@ -30,7 +31,8 @@
         position: relative;
     }
     
-    .footer svg {
-      font-size: 30px;
+    .footerlinks svg {
+      width: 30px;
+      height: 30px;
     }
   }
