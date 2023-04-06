@@ -89,8 +89,9 @@
     margin-top: 10px;
 }
 
-.item h2{
+.item h2 {
     margin-bottom: 0px;
+    font-size: 40px;
 }
   
 .group {
@@ -105,6 +106,7 @@
     flex-direction: column;
     align-items: center;
     margin: 0 10px;
+    font-size: 20px;
 }
   
 .icon-text h5 {
@@ -148,7 +150,6 @@
   
     .about .prompt {
         font-size: 20px;
-        margin-bottom: 20px;
         text-align: center;
     }
 
@@ -156,4 +157,9 @@
       font-size: 40px;
       height: auto;
     }
+
+    .skills {
+        margin-bottom: 10px;
+    }
+
 }

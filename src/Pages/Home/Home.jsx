@@ -18,7 +18,9 @@ export default function Home() {
                   <Link to="https://github.com/RareTC" target='_blank' rel='noopener noreferrer'>
                     <GitHubIcon />
                   </Link>
-                  <EmailIcon />
+                  <Link to="/contact">
+                    <EmailIcon />
+                  </Link>
               </div>
               <div className='profilePhoto'>
                   <img src={Profile} />
