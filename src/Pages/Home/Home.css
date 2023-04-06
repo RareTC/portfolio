@@ -63,13 +63,11 @@
     height: 50px;
     margin-top: 0px;
     margin-bottom: 0px;
-    margin-left: 3vmin;
 }
 
 .prompt {
     font-size: 30px;
     text-align: left;
-    margin-left: 3vmin;
     margin-right: 5vmin;
 }
 
@@ -151,6 +149,7 @@
     .about .prompt {
         font-size: 20px;
         text-align: center;
+        margin-left: 14px;
     }
 
     .about h2 {
