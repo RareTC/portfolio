@@ -1,13 +1,42 @@
 .resume-container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 70vh;
+    height: 85vh;
     margin-top: 20px;
   }
   
   .resume-image {
     max-width: 100%;
     max-height: 100%;
-    padding: 20px;
   }
+
+  .resume-download {
+    background-color: #c75b5c;
+    width: 125px;
+    border-radius: 20px;
+    color: #f5f6ed;
+    margin-top: 10px;
+    border: solid 2px #b2acab;
+  }
+
+  .resume-download:hover {
+    background-color: #f5f6ed;
+    color: #c75b5c;
+    border: solid 2px #b2acab;
+  }
+
+  .resume-download:active {
+    transform: translateY(3px);
+  }
+
+ .resume-download a {
+  text-decoration: none;
+  color: #f5f6ed;
+ } 
+
+ .resume-download a:hover {
+  text-decoration: none;
+  color: #c75b5c;
+ } 
