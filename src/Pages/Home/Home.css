@@ -120,13 +120,14 @@
 
     .profilePhoto img {
         position: absolute;
-        top: 12vmin;
+        top : 18%;
         left: 30px;
         width: 60%;
         height: 60%;
     }
 
   }
+
 
 @media only screen and (max-width: 768px) {
     .about h2 {
