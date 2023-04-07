@@ -37,9 +37,9 @@ export default function Home() {
           <h1 className='skills'>Languages</h1>
           <div class='list'>
               {Skills.map(skillCategory => (
-                  <div class='item'>
+                  <div className='item'>
                       <h2>{skillCategory.category}</h2>
-                      <div class='group'>
+                      <div className='group'>
                           {skillCategory.languages.map(language => (
                               <div className='icon-text'>
                                   <h5>{language.icon}</h5>
