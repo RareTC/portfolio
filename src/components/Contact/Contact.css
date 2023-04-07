@@ -19,9 +19,10 @@
 
 .contactForm input , textarea {
     background-color: #f5f6ed;
+    border: solid 2px #2d2826;
     border-radius: 10px;
     margin-left: 5px;
-    width: 200px;
+    width: 250px;
     padding: 8px;
 }
 
