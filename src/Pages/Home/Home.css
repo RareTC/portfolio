@@ -9,7 +9,6 @@
     flex-direction: row;
     align-items: center;
     background-color: #2d2826;
-    height: 500px;
 }
 
 .bioLinks {
@@ -110,6 +109,24 @@
 .icon-text h5 {
     margin-bottom: 5px;
 }
+
+@media screen and (min-width: 768px) {
+    .bioLinks svg{
+      width: 70%;
+    }
+    .about {
+      width: 67%;
+    }
+
+    .profilePhoto img {
+        position: absolute;
+        top: 12vmin;
+        left: 30px;
+        width: 60%;
+        height: 60%;
+    }
+
+  }
 
 @media only screen and (max-width: 768px) {
     .about h2 {
