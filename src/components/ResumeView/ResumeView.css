@@ -30,13 +30,3 @@
   .resume-download:active {
     transform: translateY(3px);
   }
-
- .resume-download a {
-  text-decoration: none;
-  color: #f5f6ed;
- } 
-
- .resume-download a:hover {
-  text-decoration: none;
-  color: #c75b5c;
- } 
