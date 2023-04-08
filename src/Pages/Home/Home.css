@@ -78,6 +78,7 @@
     align-items: center;
     color: #c75b5c;
 }
+
   
 .item {
     display: flex;
@@ -108,6 +109,11 @@
   
 .icon-text h5 {
     margin-bottom: 5px;
+}
+
+.icon-text svg {
+    height: 30px;
+    width: 50px;
 }
 
 @media screen and (min-width: 768px) {
