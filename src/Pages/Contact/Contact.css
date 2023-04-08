@@ -5,10 +5,10 @@
     align-items: center;
     border: solid 2px #c75b5c;
     background-color: #b2acab;
-    width: 30%;
+    width: 40%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 50px;
+    margin-top: 150px;
     border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
@@ -22,7 +22,7 @@
     border: solid 2px #c75b5c;
     border-radius: 10px;
     margin-left: 5px;
-    width: 250px;
+    width: 230px;
     padding: 10px;
 }
 
@@ -33,7 +33,7 @@
 
 textarea {
     height: 100px;
-    width: 300px;
+    width: 250px;
 }
 
 .contactForm form {
@@ -65,6 +65,7 @@ textarea {
 #contactButton {
    padding-bottom: 23px;
 }
+
 
 @media screen and (max-width: 600px) {
     .contactForm {

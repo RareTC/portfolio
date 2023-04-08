@@ -2,6 +2,7 @@
     width: 100%;
     align-items: center;
     color: #2d2826;
+    padding-top: 100px;
 }
 
 .bioContainer {
@@ -136,6 +137,11 @@
 
 
 @media only screen and (max-width: 768px) {
+    
+    .bioLinks {
+        margin-top: 20px;
+    }
+
     .about h2 {
         font-size: 50px;
     }
@@ -153,23 +159,25 @@
     }
   
     .bioLinks {
+    margin-top: 20px;
       width: 50%;
       grid-template-columns: repeat(3, 1fr);
-      margin-top: 1vmin;
       margin-left: 2%;
+      order: 3;
     }
   
     .profilePhoto {
       width: 50%;
       padding-bottom: 50%;
       left: 2%;
+      order: 1;
     }
 
     .about {
         width: 100%;
         height: auto;
-        padding-top: 20px;
         text-align: center;
+        order: 4;
       }
   
     .about .prompt {
@@ -188,13 +196,3 @@
     }
 
 }
-
-@media only screen and (max-width: 480px) {
-    .bioLinks a {
-        margin-top: 12px;
-        margin-bottom: -3px;
-        display: block;
-        z-index: 1;
-    }
-
-  }

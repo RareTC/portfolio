@@ -34,7 +34,7 @@ export default function Home() {
                   </div>
               </div>
           </div>
-          <h1 className='skills'>Languages</h1>
+          <h1 className='skills'>Skills</h1>
           <div class='list'>
               {Skills.map(skillCategory => (
                   <div className='item'>

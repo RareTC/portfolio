@@ -10,7 +10,6 @@ export default function Navbar() {
 
   const location = useLocation();
 
-  //when setExpandbar Location changes from the import set to false (close menu)
   useEffect(() => {
     setExpandNavbar(false);
   }, [location])
@@ -19,7 +18,6 @@ export default function Navbar() {
     <div className="navbar" id={expandNavbar ? "open" : "close"}>
         <div className="toggleButton">
             <button onClick={() => {setExpandNavbar((prev) => !prev)}}>
-              {/* hamburger icon from materialUI */}
               <ReorderIcon/>
             </button>
         </div>
