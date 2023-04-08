@@ -32,7 +32,7 @@ margin: 20px;
 font-size: 25px;
 border-right: solid 2px transparent;
 border-left: solid 2px transparent;
-line-height: 80px;
+line-height: 60px;
 padding-left: 10px;
 padding-right: 10px;
 }
@@ -40,7 +40,7 @@ padding-right: 10px;
 .navbar a:hover {
     border-left: solid 2px #f5f6ed;
     border-right: solid 2px #f5f6ed;
-    line-height: 80px;
+    line-height: 40px;
     padding-left: 10px;
     padding-right: 10px;
     transition: all 0.9s ease;
