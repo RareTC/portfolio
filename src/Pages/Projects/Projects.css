@@ -27,6 +27,7 @@
 
   .projectItem {
     color: #2d2826;
+    background: #b2acab;
     border-radius: 15px;
     width: 500px;
     height: 600px;
@@ -65,14 +66,14 @@
   margin-right: 20px;
   margin-bottom: 15px;
   background-color: #c75b5c;
-  border: solid 2px #b2acab;
+  border: solid 2px #f5f6ed;
   color: #f5f6ed;
   border-radius: 10px;
 }
 
 .project-btn:hover {
   background-color: #f5f6ed;
-  border: solid 2px #b2acab;
+  border: solid 2px #c75b5c;
   color: #c75b5c;
 }
 
