@@ -155,6 +155,7 @@
     .profilePhoto {
       width: 50%;
       padding-bottom: 50%;
+      left: 1%;
     }
 
     .about {
@@ -188,4 +189,5 @@
         display: block;
         z-index: 1;
     }
+
   }
