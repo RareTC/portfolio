@@ -70,6 +70,7 @@
   border: solid 2px #f5f6ed;
   color: #f5f6ed;
   border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 5px 22px, rgba(0, 0, 0, 0.23) 0px 3px 3px;
 }
 
 .project-btn:hover {
