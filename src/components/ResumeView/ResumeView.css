@@ -13,18 +13,22 @@
   }
 
   .resume-download {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #c75b5c;
     width: 125px;
     border-radius: 20px;
     color: #f5f6ed;
     margin-top: 10px;
-    border: solid 2px #b2acab;
+    border: solid 2px transparent;
+    padding: 5px;
   }
 
   .resume-download:hover {
     background-color: #f5f6ed;
     color: #c75b5c;
-    border: solid 2px #b2acab;
+    border: solid 2px #c75b5c;
   }
 
   .resume-download:active {

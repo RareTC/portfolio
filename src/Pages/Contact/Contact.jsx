@@ -1,6 +1,7 @@
 import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import './Contact.css';
+import SendIcon from '@mui/icons-material/Send';
 
 
 export default function Contact () {
@@ -26,20 +27,20 @@ export default function Contact () {
           <div className='contactForm'>
             {!emailSent && (
               <>
-                <h1>Reach Out Below</h1>
+                <h1>Say Hello!</h1>
                 <h3>I look forward to hearing from you!</h3>
                 <form ref={form} onSubmit={sendEmail}>
-                  <label>Name</label>
-                  <input type="text" name="form_name" required/>
-                  <label>Email</label>
-                  <input type="email" name="form_email" required/>
-                  <label>Message</label>
-                  <textarea name="message" required/>
-                  <input id='contactButton' type="submit" value="Send" />
+                  {/* <label>Name</label> */}
+                  <input type="text" name="form_name" placeholder="Name" required/>
+                  <input type="email" name="form_email" placeholder='Email' required/>
+                  <textarea name="message" placeholder='Enter Message' required/>
+                  <button id='contactButton' type="submit">
+                    Send <SendIcon />
+                  </button>
                 </form>
               </>
             )}
-            {emailSent && <h3>Thank you! Your message has been sent.</h3>}
+            {emailSent && <h3>Thank you! The Message Is En Route!</h3>}
           </div>
         </>
       );

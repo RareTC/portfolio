@@ -3,14 +3,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: solid 2px #c75b5c;
-    background-color: #b2acab;
-    width: 40%;
+    background-color: transparent;
     margin-left: auto;
     margin-right: auto;
     margin-top: 150px;
     border-radius: 20px;
-    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    width: 100%;
+    height: 100%;
 }
 
 .contactForm h1, h3, label {
@@ -18,22 +17,28 @@
 }
 
 .contactForm input , textarea {
-    background-color: #f5f6ed;
-    border: solid 2px #c75b5c;
-    border-radius: 10px;
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid 2px #c75b5c;
     margin-left: 5px;
+    margin-bottom: 5px;
+    outline: none;
     width: 230px;
     padding: 10px;
+    caret-color: #2d2826;
+    color: #2d2826;
 }
 
-.contactForm input, textarea:focus {
-    outline-color: #c75b5c;
+.contactForm input[type=text]::placeholder,[type=email]::placeholder,
+.contactForm textarea::placeholder {
+  text-align: center;
+  color: #2d2826;
 }
-
 
 textarea {
     height: 100px;
-    width: 250px;
 }
 
 .contactForm form {
@@ -42,28 +47,38 @@ textarea {
     align-items: center;
 }
 
-#contactButton {
-    background-color: #c75b5c ;
-    color: #f5f6ed;
-    border: solid 2px #f5f6ed;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    width: 100px;
-    height: 30px;
+.contactForm input:focus, textarea:focus {
+    border: 1px solid#c75b5c;
+    border-radius: 8px;
 }
 
+#contactButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(199, 91, 92, .6) ;
+    color: #f5f6ed;
+    border: solid 2px #f5f6ed;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 100px;
+    height: 30px;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+#contactButton svg {
+    margin-left: 5px;
+}
 
 #contactButton:hover {
     background-color: #f5f6ed;
     color: #c75b5c;
+    border: solid 2px#c75b5c;
 }
 
 #contactButton:active {
     transform: translateY(3px);
-}
-
-#contactButton {
-   padding-bottom: 23px;
 }
 
 
