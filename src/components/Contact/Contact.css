@@ -19,11 +19,11 @@
 
 .contactForm input , textarea {
     background-color: #f5f6ed;
-    border: solid 2px #2d2826;
+    border: solid 2px #c75b5c;
     border-radius: 10px;
     margin-left: 5px;
     width: 250px;
-    padding: 8px;
+    padding: 10px;
 }
 
 .contactForm input, textarea:focus {
@@ -68,7 +68,7 @@ textarea {
 
 @media screen and (max-width: 600px) {
     .contactForm {
-        width: 100%;
+        width: 90%;
         height: 100%;
       }
     
