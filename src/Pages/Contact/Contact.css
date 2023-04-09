@@ -13,7 +13,7 @@
 }
 
 .contactForm h1, h3, label {
-    color: #2d2826;
+    color: #f5f7f6;
 }
 
 .contactForm input , textarea {
@@ -21,20 +21,20 @@
     border-top: none;
     border-left: none;
     border-right: none;
-    border-bottom: solid 2px #c75b5c;
+    border-bottom: solid 3px ##b2acab;
     margin-left: 5px;
     margin-bottom: 5px;
     outline: none;
     width: 230px;
     padding: 10px;
-    caret-color: #2d2826;
-    color: #2d2826;
+    caret-color: #f5f7f6;
+    color: #f5f7f6;
 }
 
 .contactForm input[type=text]::placeholder,[type=email]::placeholder,
 .contactForm textarea::placeholder {
   text-align: center;
-  color: #2d2826;
+  color: #f5f7f6;
 }
 
 textarea {
@@ -48,7 +48,7 @@ textarea {
 }
 
 .contactForm input:focus, textarea:focus {
-    border: 1px solid#c75b5c;
+    border: 1px solid #f5f7f6;
     border-radius: 8px;
 }
 
@@ -56,9 +56,9 @@ textarea {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgba(199, 91, 92, .6) ;
-    color: #f5f6ed;
-    border: solid 2px #f5f6ed;
+    background-color: #2d3e55 ;
+    color: #f5f7f6;
+    border: solid 2px #f5f7f6;
     margin-top: 15px;
     margin-bottom: 15px;
     width: 100px;
@@ -73,9 +73,9 @@ textarea {
 }
 
 #contactButton:hover {
-    background-color: #f5f6ed;
-    color: #c75b5c;
-    border: solid 2px#c75b5c;
+    background-color: #f5f7f6;
+    color: #2d3e55;
+    border: solid 2px#2d3e55;
 }
 
 #contactButton:active {
@@ -89,8 +89,8 @@ textarea {
     text-align: center;
     font-size: 30px;
     padding: 10px;
-    background-color: #b2acab;
-    color: #2d2826;
+    background-color: #f5f7f6;
+    color: #2d3e55;
     border-radius: 4px;
     width: 250px;
     -webkit-animation: swing-in-top-fwd 1s cubic-bezier(0.175, 0.885, 0.320, 1.275) both;

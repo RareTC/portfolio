@@ -10,7 +10,7 @@ export default function ProjectItem({ image, name, desc, skills, git, site }) {
             </div>
             <h1 className='project-title'>{name}</h1>
             <p className='project-desc'>{desc}</p>
-            <h3>Tech:</h3>
+            <h3>Tech</h3>
             <p className='project-skills'>{skills}</p>
             <div className='project-btn-wrap'>
                 <button className='project-btn' onClick={() => window.open(git)}>

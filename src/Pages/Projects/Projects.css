@@ -5,11 +5,12 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    color: #2d2826;
+    color: #f5f7f6;
     margin-top: 100px;
   }
   
   .projectList {
+    margin-top: 20px;
     width: 90vw;
     height: auto;
     display: grid;
@@ -23,12 +24,14 @@
   }
   
   .projectItem h3 {
-    margin: 0;
+    margin-bottom: 5px;
+    color: #f5f7f6;
+    text-decoration: underline;
   }
 
   .projectItem {
-    color: #2d2826;
-    background: #e9eae0;
+    color: #f5f7f6;
+    background-color: #263850;
     border-radius: 5px;
     width: 500px;
     height: 600px;
@@ -53,17 +56,22 @@
     border-top-left-radius: 5px;
   }
 
-.project-skills, .project-desc {
-  margin-left: 5px;
-  margin-right: 5px;
-  margin-top: 0;
+.project-desc {
+  padding-left: 25px;
+  padding-right: 25px;
   margin-bottom: 0;
+}
+
+.project-skills {
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-bottom: 20px;
+
 }
 
 .project-btn-wrap {
   display: flex;
   justify-content: space-between;
-  /* background-color: #c75b5c; */
 } 
 
 .project-btn {
@@ -73,11 +81,11 @@
   /* margin-left: 20px; */
   /* margin-right: 20px; */
   margin-bottom: 15px;
-  background-color: #c75b5c;
+  background-color: #66819a;
   /* border: solid 2px #f5f6ed; */
   /* border: solid 1px #e9eae0; */
   border: none;
-  color: #f5f6ed;
+  color: #f5f7f6;
   /* border-radius: 5px; */
   /* box-shadow: rgba(0, 0, 0, 0.19) 0px 5px 22px, rgba(0, 0, 0, 0.23) 0px 3px 3px; */
   /* border-right: solid 2px transparent;
@@ -87,9 +95,9 @@ padding-right: 10px;
 }
 
 .project-btn:hover {
-  background-color: #e9eae0;
+  background-color: #f5f7f6;
   /* border: solid 2px #c75b5c; */
-    color: #c75b5c;
+    color: #2d3e55;
     /* border-left: solid 2px #f5f6ed;
     border-right: solid 2px #f5f6ed; */
     line-height: 80%;
@@ -136,8 +144,8 @@ padding-right: 10px;
     }
   
     .projectItem .bgImage {
-      width: 90%;
-      height: 150px;
+      width: 80%;
+      height: 200px;
       border-top-right-radius: 0px;
       border-top-left-radius: 0px;
     }
