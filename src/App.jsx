@@ -14,8 +14,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
-          <Route path="/contact" element={<Contact />} />
           <Route path="/resume" element={<Resume />}/>
+          <Route path="/contact" element={<Contact />} />
         </Routes>
         <Footer />
     </div>
@@ -23,11 +23,3 @@ function App() {
 }
 
 export default App;
-
-
-
-// import Experience from './Pages/Experience/Experience';
-// import ProjectDisplay from './Pages/ProjectDisplay/ProjectDisplay';
-
-/* <Route path="/project/:id" element={<ProjectDisplay />} /> */
-/* <Route path="/experience" element={<Experience />} /> */
