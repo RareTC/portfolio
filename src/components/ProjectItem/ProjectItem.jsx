@@ -13,16 +13,12 @@ export default function ProjectItem({ image, name, desc, skills, git, site }) {
             <h3>Tech:</h3>
             <p className='project-skills'>{skills}</p>
             <div className='project-btn-wrap'>
-                    {/* <a href={git} target='_blank' rel='noopener noreferrer'> */}
-                        <button className='project-btn' onClick={() => window.open(git)}>
-                            Code
-                        </button>
-                    {/* </a> */}
-                    {/* <a href={site} target='_blank' rel='noopener noreferrer'> */}
-                        <button className='project-btn' onClick={() => window.open(site)}>
-                            Site
-                        </button>
-                    {/* </a> */}
+                <button className='project-btn' onClick={() => window.open(git)}>
+                    Code
+                </button>
+                <button className='project-btn' onClick={() => window.open(site)}>
+                    Site
+                </button>
             </div>
         </div>
   )

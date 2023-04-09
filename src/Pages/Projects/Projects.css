@@ -28,8 +28,8 @@
 
   .projectItem {
     color: #2d2826;
-    background: #f5f6ed;
-    border-radius: 15px;
+    background: #e9eae0;
+    border-radius: 5px;
     width: 500px;
     height: 600px;
     margin: 40px;
@@ -43,14 +43,14 @@
   
   .projectItem .bgImage {
     width: 500px;
-    height: 300px;
+    height: 340px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
     margin: 0 auto;
-    border-top-right-radius: 15px;
-    border-top-left-radius: 15px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
   }
 
 .project-skills, .project-desc {
@@ -60,29 +60,41 @@
   margin-bottom: 0;
 }
 
+.project-btn-wrap {
+  display: flex;
+  justify-content: space-between;
+  /* background-color: #c75b5c; */
+} 
+
 .project-btn {
-  width: 70px;
-  padding: 6px;
-  margin-left: 20px;
-  margin-right: 20px;
+  width: 49.9%;
+  height: 100%;
+  padding: 10px;
+  /* margin-left: 20px; */
+  /* margin-right: 20px; */
   margin-bottom: 15px;
   background-color: #c75b5c;
-  border: solid 2px #f5f6ed;
+  /* border: solid 2px #f5f6ed; */
+  /* border: solid 1px #e9eae0; */
+  border: none;
   color: #f5f6ed;
-  border-radius: 10px;
-  box-shadow: rgba(0, 0, 0, 0.19) 0px 5px 22px, rgba(0, 0, 0, 0.23) 0px 3px 3px;
+  /* border-radius: 5px; */
+  /* box-shadow: rgba(0, 0, 0, 0.19) 0px 5px 22px, rgba(0, 0, 0, 0.23) 0px 3px 3px; */
+  /* border-right: solid 2px transparent;
+border-left: solid 2px transparent; */
+padding-left: 10px;
+padding-right: 10px;
 }
 
 .project-btn:hover {
-  background-color: #f5f6ed;
-  border: solid 2px #c75b5c;
-  color: #c75b5c;
+  background-color: #e9eae0;
+  /* border: solid 2px #c75b5c; */
+    color: #c75b5c;
+    /* border-left: solid 2px #f5f6ed;
+    border-right: solid 2px #f5f6ed; */
+    line-height: 80%;
+    transition: all 0.9s ease;
 }
-
-.project-btn:active {
-  transform: translateY(3px);
-}
-
 
   
   @media only screen and (max-width: 1300px) {
@@ -110,28 +122,27 @@
   @media screen and (max-width: 768px) {
   
     .projectList {
-      width: 90vw;
-      height: auto;
+      /* height: auto; */
       display: grid;
       grid-template-columns: 1fr;
       place-items: center;
       justify-content: center;
     }
-  
+    
     .projectItem {
-      width: 100%;
-      height: auto;
+      width: 90%;
+      height: 95%;
       margin-top: 30px;
     }
   
     .projectItem .bgImage {
-      width: 100%;
-      height: 50vh;
+      width: 90%;
+      height: 150px;
       border-top-right-radius: 0px;
       border-top-left-radius: 0px;
     }
   
     .project-btn {
-      margin: 10px;
+      width: 49.8%;
     }
   }
