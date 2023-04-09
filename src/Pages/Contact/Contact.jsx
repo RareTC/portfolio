@@ -40,8 +40,12 @@ export default function Contact () {
                 </form>
               </>
             )}
-            {emailSent && <h3>Thank you! The Message Is En Route!</h3>}
+            {emailSent && 
+            <div className='formSent'>
+              Thank you! Your Message Is On The Way!
+            </div>}
           </div>
+
         </>
       );
 }
