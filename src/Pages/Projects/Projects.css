@@ -78,8 +78,6 @@
   width: 49.9%;
   height: 100%;
   padding: 10px;
-  /* margin-left: 20px; */
-  /* margin-right: 20px; */
   margin-bottom: 15px;
   background-color: #66819a;
   /* border: solid 2px #f5f6ed; */
@@ -130,7 +128,7 @@ padding-right: 10px;
   @media screen and (max-width: 768px) {
   
     .projectList {
-      /* height: auto; */
+      height: auto;
       display: grid;
       grid-template-columns: 1fr;
       place-items: center;
