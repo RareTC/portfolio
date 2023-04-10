@@ -8,13 +8,12 @@ import MockupMagic from '../../assets/mockupMagic.png';
 import Marketsense from '../../assets/marketsense.png';
 import Concentration from '../../assets/concentration.png';
 
-
   
 const projects = [
    {
        name: 'Mockup Magic',
        image: MockupMagic,
-       skills: 'ReactJs, NodeJS, MongoDB, Javascript, Mongoose, Express, HTML, CSS',
+       skills: 'MongoDB, Express, ReactJS, NodeJS, HTML, CSS',
        desc: 'A MERN stack app, which auto-generates palettes based off a highly interactive palette pad and applies them to mockup sites. Go on, give the palette a test, click around!',
        git: 'https://github.com/RareTC/mockup-magic#readme',
        site: 'https://mockup-magic.herokuapp.com/',
@@ -23,7 +22,7 @@ const projects = [
        name: 'Workflow Wiz',
        image: WorkflowWiz,
        skills: 'Python, Django, SQL, HTML, CSS',
-       desc: 'A full CRUD Python an Django based application designed to simplify and organize team projects. With specific user priveleges, task assignments, and a team comment section. ',
+       desc: 'A full CRUD Python and Django based application designed to simplify and organize team projects. With specific user priveleges, task assignments, and a team comment section. ',
        git: 'https://github.com/RareTC/workflowwiz',
        site: 'https://workflow-wiz.herokuapp.com/',
    },
