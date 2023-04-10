@@ -13,30 +13,3 @@
   height: 600px;
   margin: 0 auto;
 }
-
-/* @media screen and (min-height: 1100px) {
-  .containerStyle {
-    height: 850px;
-  }
-}
-
-
-@media screen and (max-height: 800px) {
-  .containerStyle {
-    height: 550px;
-  }
-}
-
-@media screen and (max-height: 750px) {
-  .containerStyle {
-    height: 400px;
-  }
-}
-
-@media screen and (max-width: 800px) {
-  .containerStyle {
-    height: 400px;
-    width: 300px;
-  }
-  
-} */
