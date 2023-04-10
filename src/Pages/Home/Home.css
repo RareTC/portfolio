@@ -52,8 +52,9 @@
     width: 90%;
     height: 90%;
     object-fit: cover;
-    border-radius: 15%;
+    border-radius: 25px;
     overflow: hidden;
+    border: solid 3px #f5f7f6;
 }
 
 .about {
