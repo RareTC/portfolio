@@ -1,4 +1,5 @@
 import React from 'react';
+import TypeWriter from "typewriter-effect";
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import EmailIcon from "@mui/icons-material/Email";
@@ -26,6 +27,16 @@ export default function Home() {
                   <img src={Profile} />
               </div>
               <div className='about'>
+                    <p className="typewriter">
+                    <TypeWriter
+                    className="typewriter"
+                        options={{
+                            strings: ['Coachable', 'Organized', 'Cooperative'],
+                            autoStart: true,
+                            loop: true,
+                        }}
+                    />
+                    </p>
                   <h2>Trevor Campbell</h2>
                   <div className='prompt'>
                       <p>I bring creative and palatable projects to life with surgical precision and organized code. As a full stack developer experienced in
