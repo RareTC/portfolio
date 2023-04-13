@@ -145,22 +145,41 @@
         width: 60%;
         height: 60%;
     }
+}
 
-  }
 
-
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 850px) {
     
     .bioLinks {
         margin-top: 20px;
     }
-
+    
     .about h2 {
-        font-size: 50px;
+        font-size: 40px;
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
+    
+    .prompt {
+        font-size: 20px;
+    }
+    
+    .skills {
+        font-size: 40px;
     }
 
-    .prompt {
-        font-size: 25px;
+    .item h2 {
+        font-size: 30px;
+    }
+
+    .icon-text svg {
+        height: 20px;
+        width: 30px;
+    }
+
+    .icon-text h5 {
+        margin-bottom: 5px;
+        font-size: 16px;
     }
 }
 
@@ -206,6 +225,11 @@
 
     .skills {
         margin-bottom: 10px;
+    }
+
+    .list {
+        padding-left: 6px;
+        padding-right: 6px;
     }
 
 }
