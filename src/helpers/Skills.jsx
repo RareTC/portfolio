@@ -15,7 +15,6 @@ export const Skills = [
         { name: "JavaScript", icon: <DiJavascript1 /> },
         { name: "React.js", icon: <GrReactjs /> },
         { name: "Python", icon: <FaPython /> },
-        { name: "Bootstrap", icon: <FaBootstrap /> },
       ]
     },
     {
@@ -33,7 +32,7 @@ export const Skills = [
         { name: "Trello", icon: <BsTrello /> },
         { name: "Slack", icon: <BsSlack /> },
         { name: "Heroku", icon: <SiHeroku /> },
-        { name: "Bootstrap", icon: <BsBootstrap /> },
+        { name: "Bootstrap", icon: <FaBootstrap /> },
         { name: "Zoom", icon: <TbBrandZoom /> },
       ]
     },
