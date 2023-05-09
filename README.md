@@ -22,4 +22,3 @@ Featuring my four most recent projects, [Mockup Magic](https://github.com/RareTC
 ## Contact 📲
 
 Trevorjcampbell@aol.com |
-(c) 713-857-4372
