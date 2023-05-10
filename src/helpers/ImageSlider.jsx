@@ -97,8 +97,7 @@ export default function ImageSlider ({ slides, parentWidth }) {
             <div className='dotsContainer'>
                 {slides.map((slide, slideIndex) => (
                     <div key={slideIndex} onClick={() => goToSlide(slideIndex)} className='dots'>
-                        <TripOriginIcon />
-                    </div>
+                    <TripOriginIcon style={{fill: slideIndex === currentIndex ? '#EE933d' : 'currentColor'}} />                    </div>
                 ))}
             </div>
         </div>
