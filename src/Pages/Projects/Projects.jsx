@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 import './Projects.css';
 import ImageCard from '../../helpers/ImageCard';
 import ImageSlider from '../../helpers/ImageSlider'
-import WorkflowWiz from '../../assets/workflowWiz.png';
+import Makeme from '../../assets/makeme.png';
 import MockupMagic from '../../assets/mockupMagic.png';
 import Marketsense from '../../assets/marketsense.png';
 import Concentration from '../../assets/concentration.png';
@@ -19,12 +19,12 @@ const projects = [
        site: 'https://mockup-magic.herokuapp.com/',
    },
    {
-       name: 'Workflow Wiz',
-       image: WorkflowWiz,
-       skills: 'Python, Django, SQL, HTML, CSS',
-       desc: 'A full CRUD Python and Django based application designed to simplify and organize team projects. With specific user priveleges, task assignments, and a team comment section. ',
-       git: 'https://github.com/RareTC/workflowwiz',
-       site: 'https://workflow-wiz.herokuapp.com/',
+       name: 'MAKEME.md',
+       image: Makeme,
+       skills: 'ReactJS, NodeJS, MongoDB, Express, HTML, CSS',
+       desc: `Modeled after Github's README.md, this allows live side by side viewing of markdown to readme. With easy to add templates, and components build a beautiful README in no time!`,
+       git: 'https://github.com/RareTC/makeme/tree/main#readme',
+       site: 'https://makeme.herokuapp.com/',
    },
    {
        name: 'Market Sense',
